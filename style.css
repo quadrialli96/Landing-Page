@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.menu-container {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    background-color: #1f2937;
+    padding: 20px;
+} 
+
+.menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headers {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.preview-container {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preview {
+    flex-direction: row;
+}
+.words {
+    font-size: 50px;
+    flex-wrap: wrap;
+    width: 350px;
+}
