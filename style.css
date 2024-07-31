@@ -7,10 +7,11 @@ body {
 .menu-container {
     display: flex;
     color: white;
-    justify-content: space-around;
     background-color: #1f2937;
-    padding: 20px;
+    padding-bottom: 12px;
+    font-size: 20px;
 } 
+
 
 .menu {
     width: 900px;
@@ -20,8 +21,9 @@ body {
 
 .headers {
     display: flex;
-    justify-content: space-between;
+    text-align: end;
     gap: 10px;
+    padding-right: 0;
 }
 
 .preview-container {
@@ -33,6 +35,10 @@ body {
     margin-bottom: 0;
 }
 
+.signup {
+    background-color: blue;
+    color: white;
+}
 .words {
     font-size: 50px;
     flex-wrap: wrap;
