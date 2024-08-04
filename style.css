@@ -75,17 +75,20 @@ body {
     margin-bottom: 26px;
 }
 
-.images {
+.boxes {
     display: flex;
-    width: 300px;
-    height: 300px;
-    justify-content: space-between;
-    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
 }
 
-.image-2 {
-    display: flex;
-    flex-basis: auto;
+.box-1, .box-2, .box-3, .box-4 {
+    box-sizing: border-box ;
+    height: 100px;
+    width: 100px;
+    border: 2px solid blue;
+    margin-right: 20px;
+    margin-bottom: 150px;
+    border-radius: 15px;
 }
 
 .paragraph {
@@ -108,3 +111,4 @@ body {
     text-align: end;
     font-size: 30px;
 }
+
