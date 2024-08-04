@@ -21,9 +21,8 @@ body {
 
 .headers {
     display: flex;
-    text-align: end;
     gap: 10px;
-    padding-right: 0;
+    justify-content: space-evenly;
 }
 
 .preview-container {
@@ -32,7 +31,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0;
+    margin-bottom: 50px;
+    margin-top: 70px;
 }
 
 .signup {
@@ -44,7 +44,22 @@ body {
     flex-wrap: wrap;
     width: 350px;
     text-align: start;
+    padding-bottom: 10px;
 }
+
+.more-words {
+    padding-bottom: 10px;
+}
+
+.photo {
+    background-color: gray;
+    width: 300px;
+    height: 20px;
+    justify-content: center;
+    align-self: center;
+    padding: 50px;
+}
+
 .information-container {
     background-color: white;
     color: black;
