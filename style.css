@@ -133,14 +133,25 @@ body {
 }
 
 .footer-container {
+    display: flex;
     background-color: white;
-    height: 200px;
+    flex-direction: column;
+    align-items: center;
 }
 
-.footer-content {
+.footer-content{
     background-color: blue;
-    height: 100px;
-    padding: 15px;
     color: white;
-    align-self: center;
+    display: flex;
+    width: 980px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-bottom: 40px;
 }
