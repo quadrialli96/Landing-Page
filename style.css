@@ -103,9 +103,9 @@ body {
 
 .box-text {
     text-align: center;
-    word-wrap: break-word;
+    word-wrap: break-word; /* Ensure long words break to the next line */
     font-size: 16px;
-    max-width: 100px;
+    max-width: 100px; /* Same width as the boxes to prevent overflow */
     margin-bottom: 100px;
 }
 
